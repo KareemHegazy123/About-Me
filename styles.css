@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4e4e4;
+    color: #6b6b6b;
+    padding: 10px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 30px; 
+    height: 30px; 
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.name {
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.job-title {
+    margin-left: 10px; 
+    margin-top: 5px;
+    font-size: 16px; 
+    color: #3f3f3f; 
+}
+
+.navbar-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.divider {
+    width: 1px; 
+    height: 20px; 
+    background-color: #000000; 
+}
+
+.navbar-right ul li a {
+    color: #6b6b6b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-right ul li a:hover {
+    text-decoration: underline;
+    color: rgb(0, 81, 255);
+}
+
+main {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.main-content {
+    display: flex; 
+    align-items: center; 
+    margin: 2% 10%;
+    padding: 20px;
+    background-color: #f4f4f4; 
+}
+
+.profile-photo {
+    width: 450px; 
+    height: 450px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 20px; 
+    margin-top: 20px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.hello{
+    font-size: 50px;
+    color: #000000;
+}
+
+.about{
+    color: #000000;
+
+}
+
+.circles {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+.circle-item {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    text-decoration: none; 
+    font-size: 20px; 
+    transition: transform 0.3s; 
+}
+
+.red {
+    background-color: black; 
+}
+
+.green {
+    background-color: rgba(189, 0, 0, 0.911); 
+}
+
+.blue {
+    background-color: rgb(218, 152, 30); 
+}
+
+.circle-item:hover {
+    background-color: #f4f4f4;
+    color: #000000;
+    transform: scale(1.05); 
+    border: solid #5e5e5e;
+    
+}
+
+
+footer {
+    text-align: center;
+    margin: 50px;
+}
+
+
+.information{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phone{
+    margin-left: 50px;
+}
+.email{
+    margin-right: 50px;
+}
+
+.date{
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
